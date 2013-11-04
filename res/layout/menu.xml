@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" 
+  android:layout_width="fill_parent" android:orientation="vertical">
+
+	<TextView android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:text="@string/rotate" android:id="@+id/rotateText">
+	</TextView>
+	<SeekBar android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:id="@+id/rotateSeek" 
+	android:max="360">
+	</SeekBar>
+	<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/waveText" android:text="@string/wave"></TextView><SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/waveSeek" android:max="100"></SeekBar><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/crunode" android:id="@+id/crunodeText"></TextView><SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:max="100" android:id="@+id/crunodeSeek"></SeekBar><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/xText" android:text="@string/xposition"></TextView><SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:max="260" android:id="@+id/xSeek"></SeekBar><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/yText" android:text="@string/yposition"></TextView><SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:max="320" android:id="@+id/ySeek"></SeekBar><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/scaleText" android:text="@string/scale"></TextView><RatingBar android:layout_height="wrap_content" android:numStars="5" android:id="@+id/scaleBar" android:layout_width="wrap_content" android:max="5"></RatingBar><Button 
+	android:id="@+id/button" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:text="@string/back">
+	</Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="com.coco.core.TestCore"
+        config="layout-sw800dp-w800dp-h1280dp-xlarge-long-port-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x800-v17"
+        device="10.1in WXGA (Tablet)"
+        devicestate="Portrait"
+        target="Android 4.2.2"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>

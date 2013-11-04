@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestCore</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="back">返回</string>
+    <string name="rotate">旋轉</string>
+    <string name="wave">波形放大</string>
+    <string name="crunode">結點</string>
+    <string name="xposition">x座標</string>
+    <string name="yposition">y座標</string>
+    <string name="scale">縮放</string>
+    
+</resources>
